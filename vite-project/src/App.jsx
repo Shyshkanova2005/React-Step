@@ -5,6 +5,10 @@ import './App.css'
 import Footer from './components/Footer'
 import Header2 from './components/Header/Header2'
 import Body from './components/Header/Bode'
+import Data from './components/Data/Data'
+import SimpleCalculator from './Calculator'
+
+
 
 
 
@@ -13,9 +17,13 @@ function App() {
 
   return (
     <div>
-      <Header2/>
+      {/* <Header2/>
+      <Data/>
        <Footer/>
+       <Data/>
        <Body/>
+       <Data/> */}
+       <SimpleCalculator/>
     </div>
 
    
@@ -23,3 +31,4 @@ function App() {
 }
 
 export default App
+
