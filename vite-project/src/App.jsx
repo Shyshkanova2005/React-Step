@@ -24,6 +24,7 @@ function App() {
        <Body/>
        <Data/> */}
        <SimpleCalculator/>
+       
     </div>
 
    
